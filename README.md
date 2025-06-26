@@ -1,11 +1,11 @@
 # E-Commerce Platform
 
-This repository contains the base structure for a modular and scalable e-commerce solution. The stack is composed of a Django backend and a Next.js frontend.
+This repository contains a modular e-commerce starter using Django for the backend and Next.js for the frontend.
 
 ## Structure
 
-- `backend/` – Django project and apps
+- `backend/` – Django project with custom user roles and product models
 - `frontend/` – Next.js application
-- `docs/` – project documentation and planning
+- `docs/` – project documentation
 
-Each folder includes a `README.md` with additional notes.
+Check each folder's `README.md` for setup instructions.
