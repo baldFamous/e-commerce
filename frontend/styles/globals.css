@@ -1,0 +1,29 @@
+:root {
+  --lavender: #EAE3F3;
+  --deep-purple: #5C4271;
+  --mint: #A4C3B2;
+  --pale-pink: #E6CBDD;
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--lavender);
+  color: var(--deep-purple);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  margin-top: 0;
+}
+
+button {
+  background: var(--deep-purple);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
