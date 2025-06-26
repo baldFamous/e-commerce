@@ -27,3 +27,13 @@ button {
   cursor: pointer;
   border-radius: 4px;
 }
+
+nav a {
+  color: var(--deep-purple);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
