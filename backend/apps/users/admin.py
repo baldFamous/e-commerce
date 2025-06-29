@@ -12,3 +12,7 @@ class CustomUserAdmin(UserAdmin):
     list_display = ('email', 'nombre_completo', 'es_administrador_local', 'is_superuser')
     search_fields = ('email', 'nombre_completo')
     ordering = ('email',)
+
+        ('Role', {'fields': ('role',)}),
+    )
+    list_display = ('username', 'email', 'role', 'is_staff')

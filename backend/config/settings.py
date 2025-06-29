@@ -20,6 +20,8 @@ INSTALLED_APPS = [
     'apps.users',
     'apps.products',
     'apps.orders',
+    'apps.users',
+    'apps.products',
 ]
 
 MIDDLEWARE = [
@@ -61,6 +63,8 @@ DATABASES = {
         'PASSWORD': os.getenv('POSTGRES_PASSWORD', 'ecommerce'),
         'HOST': os.getenv('POSTGRES_HOST', 'localhost'),
         'PORT': os.getenv('POSTGRES_PORT', '5432'),
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
@@ -98,4 +102,3 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     )
 }
-
