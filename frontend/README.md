@@ -16,4 +16,3 @@ npm run dev
 ```
 
 The main page is implemented in `pages/index.js` and stitches together components found in the `components/` directory.
-

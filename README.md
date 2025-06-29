@@ -1,5 +1,11 @@
 # E-Commerce Platform
 
+This repository contains a modular e-commerce starter using Django REST Framework for the backend and Next.js for the frontend.
+
+## Structure
+
+- `backend/` – Django REST project with PostgreSQL configuration
+
 This repository contains a modular e-commerce starter using Django for the backend and Next.js for the frontend.
 
 ## Structure
