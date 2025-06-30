@@ -15,6 +15,7 @@ class User(AbstractUser):
     def __str__(self):
         return self.email
 
+
     class Role(models.TextChoices):
         ADMINISTRATOR = 'administrator', 'Administrador'
         MAINTAINER = 'maintainer', 'Mantenedor'

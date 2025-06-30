@@ -42,6 +42,7 @@ Start the development server with:
 ```bash
 python manage.py runserver
 ```
+
 ## User roles
 
 The custom `User` model includes a `role` field with two options: `administrator` and `maintainer`. Manage users and products through the built-in Django admin at `/admin/`.
