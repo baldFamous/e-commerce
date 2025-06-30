@@ -1,4 +1,6 @@
 import PublicLayout from '../layouts/PublicLayout';
+import Nav from '../components/Nav';
+
 import Hero from '../components/Hero';
 import QuickTest from '../components/QuickTest';
 import SelectionOfTheMonth from '../components/SelectionOfTheMonth';
@@ -11,6 +13,12 @@ import SubscriptionSection from '../components/SubscriptionSection';
 export default function Home() {
   return (
     <PublicLayout>
+import Footer from '../components/Footer';
+
+export default function Home() {
+  return (
+    <>
+      <Nav />
       <Hero />
       <QuickTest />
       <SelectionOfTheMonth />
@@ -20,5 +28,8 @@ export default function Home() {
       <LimitedOfferBanner />
       <SubscriptionSection />
     </PublicLayout>
+
+      <Footer />
+    </>
   );
 }

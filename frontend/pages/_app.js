@@ -10,4 +10,8 @@ export default function App({ Component, pageProps }) {
       </CartProvider>
     </AuthProvider>
   );
+
+
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />;
 }
